@@ -1,16 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
- * more headers goes there
 
- */
-
-/* betty style doc for function main goes there */
-/*
- * main - assigns a random number to the variable n each time it is executed
- *prints whether the random numer is positive or negative
- *  return:0 returned to exit the program
+/**
+ * main - prints whether the number is positive or negative
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
