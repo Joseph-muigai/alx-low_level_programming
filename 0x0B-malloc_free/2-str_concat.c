@@ -38,11 +38,13 @@ char *str_concat(char *s1, char *s2)
 	}
 	if (s2)
 	{
-		while (j < len2)
+		while (i < (len1 + len2))
 		{
-			conc[j] = s2[i];
+			conc[i] = s2[j];
+			i++;
 			j++;
 		}
 	}
+	conc[i] = '\0';
 	return (conc);
 }
