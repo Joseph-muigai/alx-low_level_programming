@@ -12,7 +12,7 @@ int _strlen(char *s)
 {
 	int len = 0;
 
-	while (*(s + len != '\0'))
+	while (*(s + len) != '\0')
 		len++;
 	return (len);
 }
@@ -60,7 +60,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(new_dog);
 		return (NULL);
 	}
-	cname = _strcpy(cowner, owner);
+	cname = _strcpy(cname, name);
 
 	cowner = malloc(sizeof(char *) * (_strlen(owner) + 1));
 
