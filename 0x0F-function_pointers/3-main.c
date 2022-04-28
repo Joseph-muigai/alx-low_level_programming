@@ -23,8 +23,8 @@ int main(int argc, char *argv[])
 
 	if (!func)
 	{
-		printf("Errot\n");
-		exit(98);
+		printf("Error\n");
+		exit(99);
 	}
 	o = *argv[2];
 
