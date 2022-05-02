@@ -27,13 +27,13 @@ void print_all(const char * const format, ...)
 					printf("%s%d", sprt, va_arg(list, int));
 					break;
 				case 'f':
-					printf("%s%f", sprt, va_arg(list, float));
+					printf("%s%f", sprt, va_arg(list, double));
 					break;
 				case 's':
 					str = va_arg(list, char *);
 
 					if (!str)
-						str = '(nil)';
+						str = "(nil)";
 					printf("%s%s", sprt, str);
 					break;
 				default:
