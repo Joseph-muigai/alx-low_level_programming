@@ -23,7 +23,7 @@
                 return (NULL);
         
         new->str = strdup(str);
-        new->i = i;
+        new->len = i;
         new->next = NULL;
 
         if (*head = NULL)
