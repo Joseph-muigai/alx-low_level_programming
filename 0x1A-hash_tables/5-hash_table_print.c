@@ -1,3 +1,4 @@
+#include "hash_tables.h"
 /**
  * hash_table_print - print key/values of hash table in order
  * @ht: hash table
